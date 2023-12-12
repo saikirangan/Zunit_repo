@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batchModel:BatchSpecContainer xmlns:batchModel="http:///com.ibm.etools.zunit.batchModel.ecore" version="38" language="Cobol">
+  <ImporterPropertyArray language="Cobol">
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_COB" value="FP"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_COMPILE_TIME_LOCALE" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_SOSI" value="false"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_QUOTE" value="DOUBLE"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_CURRENCY" value="&quot;$&quot;"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_CPY" value="DS"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_CBL" value="FP"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ADDITIONAL_OPTIONS" value=""/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_POSTERRORS_TO_PROBLEMS_VIEW" value="true"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_PGMNAME" value="LU"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_TRUNC" value="STD"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_NSYMBOL" value="NATIONAL"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXT_DECIMAL_SIGN" value="ASCII"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_PLATFORM_SELECTION" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_COLLSEQ" value="BIN"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_HOST_CODEPAGE_EC" value="IBM-1047"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_SYSLIB" value="C:\Users\sandhata\idz_workspace\zUnitTempProject1701249298872\includePseudoSOSI"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ASCII_CODEPAGE" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ERROR_MSGS_LANG" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_CCP" value="FP"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_COMPAT" value="true"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_CODEPAGE" value="ISO-8859-1"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_FLOATING_POINT_FORMAT" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_NCOLLSEQ" value="BIN"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_REMOTE_ENDIAN" value="Little"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ENDIAN" value="Little"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_NUMPROC" value="PFD"/>
+  </ImporterPropertyArray>
+  <LanguageSourceArray>
+    <LanguageSource fileName="PGM04" fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.COBOL" checksum="9da08f3ccd2bc7d793ca998a7e914999" programType="Entry"/>
+  </LanguageSourceArray>
+  <TestDataSchemaArray fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.ZUNIT.AZUSCH">
+    <TestDataSchema fileName="INREC" id="AZUS00000000" typeName="INREC"/>
+    <TestDataSchema fileName="OUTREC" id="AZUS00000001" typeName="OUTREC"/>
+  </TestDataSchemaArray>
+  <OutputProgramArray fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.TESTS.COBOL" generated="true">
+    <OutputProgram fileName="TPGM04" checksum="470daf3f1d464811aaea7660b1266b0c" programType="Driver"/>
+  </OutputProgramArray>
+  <GeneralPropertyArray>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.superc.process.options" value="DELTAL,LINECMP,LONGLN"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_remote.combined.data.file" value="PGM04"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.FILE.intercept" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_mangle.output.filename" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.Id" value="ea5b08fe-dc77-499f-a6d2-079a7f634077"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_runner.type" value="Type_Dynamic_runtime"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.show.confirmation" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_program.id" value="PGM04"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.name" value="TPGM04"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_parser.charset" value="IBM-037"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.gen.template" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_recording.program.name" value="PGM04"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_COBOL.schema.version" value="1.050"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_host.codepage" value="IBM-037"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_has.returning.parameter" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.CICS.integrated.translator" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_recording.module.name" value="PGM04"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.superc.process.statements" value=""/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_write.item.name.for.all.unmatched" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_COBOL.dynam.option" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.remote.combined.file" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.CICS.linkage" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_check.dependencies.result" value="OK"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.DB2" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_is.main.program" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_parser.compiler.options" value="SOURCE TEST"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.CICS" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_has.DBCS.data.item.names" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.DLI" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_extension.preprocessor.name" value=""/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.showing.calls.for.subprogram" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_test.runner.version" value="&lt;no_value>"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_remote.combined.schema.file" value="PGM04"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_overwrite.testCase.file" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_user.specified.module.name.under.testing" value=""/>
+  </GeneralPropertyArray>
+  <TestDataMappingArray/>
+  <TestDataArray fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.ZUNIT.AZUTDT"/>
+  <TestEntryArray>
+    <TestEntry entryName="REFERENCE3" testName="REFERENCE3" playbackSeqId="AZUP00000000_2" entryPoint="PROCEDURE DIVISION" testSetImportId="AZUP00000000_2"/>
+    <TestEntry entryName="REFERENCE4" testName="REFERENCE4" playbackSeqId="AZUP00000000_3" entryPoint="PROCEDURE DIVISION" testSetImportId="AZUP00000000_3"/>
+    <TestEntry entryName="TEST2" testName="TEST2" playbackSeqId="AZUP00000000_2" entryPoint="PROCEDURE DIVISION" testSetName="" testSetImportId="AZUP00000000_2"/>
+    <TestEntry entryName="TEST3" testName="TEST3" playbackSeqId="AZUP00000000_3" entryPoint="PROCEDURE DIVISION" testSetName="" testSetImportId="AZUP00000000_3"/>
+    <TestEntry entryName="REFERENCE5" testName="REFERENCE5" playbackSeqId="AZUP00000000_4" testSetImportId="AZUP00000000_4"/>
+    <TestEntry entryName="TEST4" testName="TEST4" playbackSeqId="AZUP00000000_4" entryPoint="PROCEDURE DIVISION" testSetName="" testSetImportId="AZUP00000000_4"/>
+  </TestEntryArray>
+  <LanguageDataFileArray>
+    <LanguageDataFile id="AZUIF0000000" schemaId="AZUS00000000;" input="true" unitId="AZUUF0000000" name="INFILE">
+      <DDPropertyArray>
+        <DDProperty programType="Converter" ddName="DDINPUT"/>
+        <DDProperty programType="FileIo" ddName="DDINPUT" entryName="REFERENCE3" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDINPUT" entryName="REFERENCE4" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDINPUT" entryName="REFERENCE5" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDINPUT" entryName="TEST2" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDINPUT" entryName="TEST3" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDINPUT" entryName="TEST4" usePlaybackFile="true"/>
+      </DDPropertyArray>
+      <LanguageDataFilePropertyArray>
+        <LanguageDataFileProperty name="com.ibm.etools.zunit.ui.FILE_file.format" value="fixed length"/>
+        <LanguageDataFileProperty name="com.ibm.etools.zunit.ui.FILE_file.organaization" value="SEQUENTIAL"/>
+        <LanguageDataFileProperty name="com.ibm.etools.zunit.ui.FILE_file.max.record.length" value="80"/>
+      </LanguageDataFilePropertyArray>
+    </LanguageDataFile>
+    <LanguageDataFile id="AZUIF0000001" schemaId="AZUS00000001;" output="true" unitId="AZUUF0000001" name="OUTFILE">
+      <DDPropertyArray>
+        <DDProperty programType="Converter" ddName="DDOUTPUT"/>
+        <DDProperty programType="FileIo" ddName="DDOUTPUT" entryName="REFERENCE3" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDOUTPUT" entryName="REFERENCE4" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDOUTPUT" entryName="REFERENCE5" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDOUTPUT" entryName="TEST2" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDOUTPUT" entryName="TEST3" usePlaybackFile="true"/>
+        <DDProperty programType="FileIo" ddName="DDOUTPUT" entryName="TEST4" usePlaybackFile="true"/>
+      </DDPropertyArray>
+      <LanguageDataFilePropertyArray>
+        <LanguageDataFileProperty name="com.ibm.etools.zunit.ui.FILE_file.format" value="fixed length"/>
+        <LanguageDataFileProperty name="com.ibm.etools.zunit.ui.FILE_file.organaization" value="SEQUENTIAL"/>
+        <LanguageDataFileProperty name="com.ibm.etools.zunit.ui.FILE_file.max.record.length" value="80"/>
+      </LanguageDataFilePropertyArray>
+    </LanguageDataFile>
+  </LanguageDataFileArray>
+  <ProgramArray>
+    <Program unitId="AZUUP0000000" name="PROCEDURE DIVISION" stub="true" testcase="true"/>
+  </ProgramArray>
+  <OutputModuleArray>
+    <OutputModule fileName="TPGM04" fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.LOAD" programType="Driver"/>
+  </OutputModuleArray>
+  <ReferenceDataMappingArray>
+    <TestDataMapping entryName="REFERENCE3" input="true" testDataId="AZUR00000000" testDataSchemaId="AZUS00000000" interfaceId="AZUIF0000000"/>
+    <TestDataMapping entryName="REFERENCE3" output="true" testDataId="AZUR00000001" testDataSchemaId="AZUS00000001" interfaceId="AZUIF0000001"/>
+    <TestDataMapping entryName="REFERENCE4" input="true" testDataId="AZUR00000002" testDataSchemaId="AZUS00000000" interfaceId="AZUIF0000000"/>
+    <TestDataMapping entryName="REFERENCE4" output="true" testDataId="AZUR00000003" testDataSchemaId="AZUS00000001" interfaceId="AZUIF0000001"/>
+    <TestDataMapping entryName="REFERENCE5" input="true" testDataId="AZUR00000004" testDataSchemaId="AZUS00000000" interfaceId="AZUIF0000000"/>
+    <TestDataMapping entryName="REFERENCE5" output="true" testDataId="AZUR00000005" testDataSchemaId="AZUS00000001" interfaceId="AZUIF0000001"/>
+  </ReferenceDataMappingArray>
+  <ReferenceDataArray fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.ZUNIT.AZUTDT">
+    <TestData fileName="B0000000" id="AZUR00000000"/>
+    <TestData fileName="B0000001" id="AZUR00000001"/>
+    <TestData fileName="B0000014" id="AZUR00000002"/>
+    <TestData fileName="B0000015" id="AZUR00000003"/>
+    <TestData fileName="B0000016" id="AZUR00000004"/>
+    <TestData fileName="B0000017" id="AZUR00000005"/>
+  </ReferenceDataArray>
+  <PlaybackFileArray>
+    <PlaybackFile id="AZUP00000000" name="&lt;HLQ>.ZUNIT.PB.PGM04" localName="" numberOfTestEntries="4"/>
+  </PlaybackFileArray>
+  <UnitRecordArray>
+    <UnitRecord type="equal" expectedCount="1" entryName="TEST2" unitId="AZUUF0000001"/>
+    <UnitRecord type="equal" expectedCount="1" entryName="TEST3" unitId="AZUUF0000001"/>
+    <UnitRecord type="equal" expectedCount="1" entryName="TEST4" unitId="AZUUF0000001"/>
+  </UnitRecordArray>
+</batchModel:BatchSpecContainer>

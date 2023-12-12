@@ -1,0 +1,22 @@
+      ******************************************************************
+      * DCLGEN TABLE(IBMUSER.EMP_DB)                                   *
+      *        LIBRARY(ADCDS.SPUFI.COBOL(DCLGEN1))                     *
+      *        LANGUAGE(COBOL)                                         *
+      *        QUOTE                                                   *
+      * ... IS THE DCLGEN COMMAND THAT MADE THE FOLLOWING STATEMENTS   *
+      ******************************************************************
+           EXEC SQL DECLARE IBMUSER.EMP_DB TABLE
+           ( EMPNO                          CHAR(8),
+             EMPNAME                        CHAR(12),
+             SALARY                         DECIMAL(9, 2)
+           ) END-EXEC.
+      ******************************************************************
+      * COBOL DECLARATION FOR TABLE IBMUSER.EMP_DB                     *
+      ******************************************************************
+       01  DCLEMP-DB.
+           10 EMPNO                PIC X(8).
+           10 EMPNAME              PIC X(12).
+           10 SALARY               PIC S9(7)V9(2) USAGE COMP-3.
+      ******************************************************************
+      * THE NUMBER OF COLUMNS DESCRIBED BY THIS DECLARATION IS 3       *
+      ******************************************************************

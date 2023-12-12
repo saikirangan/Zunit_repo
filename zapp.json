@@ -1,0 +1,29 @@
+{
+   "name": "Zunit_repo",
+   "profiles": [
+      {
+         "name": "zunit-create-build-run",
+         "settings": {
+            "addlJclFile": "jcl/additional.jcl",
+            "allocateWorkingDs": true,
+            "config": "IBMUSER.ZUNIT.DEMO.BATCH.ZUNIT.BZUCFG",
+            "dataSetAllocation": {
+               "io1Quant": 100,
+               "io2Quant": 100,
+               "ioHlq": "{{HLQ}}.ZUNIT.IO",
+               "ioSpaceUnit": "TRACKS"
+            },
+            "result": "IBMUSER.ZUNIT.DEMO.BATCH.ZUNIT.AZURES",
+            "userLibraries": ""
+         },
+         "type": "zunit"
+      },
+      {
+         "name": "JCL",
+         "settings": {
+            "jobCardFile": "jcl/jobcard.jcl"
+         },
+         "type": "jcl"
+      }
+   ]
+}

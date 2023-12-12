@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batchModel:BatchSpecContainer xmlns:batchModel="http:///com.ibm.etools.zunit.batchModel.ecore" version="38" language="Cobol">
+  <ImporterPropertyArray language="Cobol">
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_COB" value="FP"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_COMPILE_TIME_LOCALE" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_SOSI" value="false"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_QUOTE" value="DOUBLE"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_CURRENCY" value="&quot;$&quot;"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_CPY" value="DS"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_CBL" value="FP"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ADDITIONAL_OPTIONS" value=""/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_POSTERRORS_TO_PROBLEMS_VIEW" value="true"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_PGMNAME" value="LU"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_TRUNC" value="STD"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_NSYMBOL" value="NATIONAL"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXT_DECIMAL_SIGN" value="ASCII"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_PLATFORM_SELECTION" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_COLLSEQ" value="BIN"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_HOST_CODEPAGE_EC" value="IBM-1047"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_SYSLIB" value="C:\Users\sandhata\idz_workspace\zUnitTempProject1701663864716\includePseudoSOSI"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ASCII_CODEPAGE" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ERROR_MSGS_LANG" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_EXTENSION_CCP" value="FP"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_COMPAT" value="true"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_CODEPAGE" value="ISO-8859-1"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_FLOATING_POINT_FORMAT" value="0"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_NCOLLSEQ" value="BIN"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_REMOTE_ENDIAN" value="Little"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_ENDIAN" value="Little"/>
+    <ImporterProperty name="com.ibm.etools.cobol.COBOL_NUMPROC" value="PFD"/>
+  </ImporterPropertyArray>
+  <LanguageSourceArray>
+    <LanguageSource fileName="PGM01GB" fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.COBOL" checksum="7eeb13865b7e02ee6941acb691698fbd" programType="Entry"/>
+  </LanguageSourceArray>
+  <TestDataSchemaArray fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.ZUNIT.AZUSCH">
+    <TestDataSchema fileName="WSNUMBER" id="AZUS00000000" typeName="WS-NUMBER-A"/>
+    <TestDataSchema fileName="WSNUMBE1" id="AZUS00000001" typeName="WS-NUMBER-B"/>
+    <TestDataSchema fileName="WSRESULT" id="AZUS00000002" typeName="WS-RESULT-B"/>
+  </TestDataSchemaArray>
+  <OutputProgramArray fileContainer="&lt;HLQ>.ZUNIT.DEMO.BATCH.TESTS.COBOL">
+    <OutputProgram fileName="TPGM01GB" programType="Driver"/>
+  </OutputProgramArray>
+  <GeneralPropertyArray>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.superc.process.options" value="DELTAL,LINECMP,LONGLN"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.FILE.intercept" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_mangle.output.filename" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.Id" value=""/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.show.confirmation" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_program.id" value="PGM01GB"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.name" value="TPGM01GB"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_parser.charset" value="IBM-037"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_testCase.gen.template" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_recording.program.name" value="PGM01GB"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_COBOL.schema.version" value="1.050"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_has.returning.parameter" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.CICS.integrated.translator" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_recording.module.name" value="PGM01GB"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.superc.process.statements" value=""/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.remote.combined.file" value="true"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.CICS.linkage" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_check.dependencies.result" value="OK"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.DB2" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_parser.compiler.options" value="SOURCE TEST"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.CICS" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_has.DBCS.data.item.names" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.DLI" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_extension.preprocessor.name" value=""/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_support.showing.calls.for.subprogram" value="false"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_test.runner.version" value="&lt;no_value>"/>
+    <GeneralProperty name="com.ibm.etools.zunit.ui.GEN_remote.combined.schema.file" value="PGM01GB"/>
+  </GeneralPropertyArray>
+  <LanguageDataFileArray/>
+  <ProgramArray>
+    <Program unitId="AZUUP0000000" name="PROCEDURE DIVISION" stub="true" testcase="true"/>
+    <Program unitId="AZUUP0000001" name="PGM02GB" callByIdentifier="true">
+      <ParameterSpec id="AZUIP0000000" schemaId="AZUS00000000;" input="true" output="true" index="1" length="5"/>
+      <ParameterSpec id="AZUIP0000001" schemaId="AZUS00000001;" input="true" output="true" index="2" length="5"/>
+      <ParameterSpec id="AZUIP0000002" schemaId="AZUS00000002;" input="true" output="true" index="3" length="6"/>
+    </Program>
+  </ProgramArray>
+  <callStatementAray>
+    <callStatement line="15" identifier="WS-CALLED-PGM">
+      <programIdentifier programName="PGM02GB"/>
+    </callStatement>
+  </callStatementAray>
+  <PlaybackFileArray>
+    <PlaybackFile id="AZUP00000000" name="&lt;HLQ>.ZUNIT.PB.PGM01GB" localName="" numberOfTestEntries="2"/>
+  </PlaybackFileArray>
+</batchModel:BatchSpecContainer>
