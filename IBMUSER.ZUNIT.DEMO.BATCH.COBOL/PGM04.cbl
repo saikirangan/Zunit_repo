@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.                                         00010000
-       PROGRAM-ID.   PGM004.                                            00020002
+       PROGRAM-ID.   PGM04.                                             00020002
        ENVIRONMENT DIVISION.                                            00030000
        INPUT-OUTPUT SECTION.                                            00040000
        FILE-CONTROL.                                                    00050000
